@@ -4,8 +4,8 @@ function solution(S) {
 
   for (let i = 0; i < len; i++) {
     const ch = S.charAt(i);
-    if (isOpening(ch)) stack.unshift(matching(ch));
-    else if (isClosing(ch) && stack[0] === ch) stack.shift();
+    if (isOpening(ch)) stack.push(matching(ch));
+    else if (isClosing(ch) && stack[stack.length - 1] === ch) stack.pop();
     else return 0;
   }
 
