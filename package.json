@@ -1,0 +1,23 @@
+{
+  "name": "codility",
+  "version": "1.0.0",
+  "description": "todo:\r improve longest common prefix - device and conquer\r fix binary conversion on humming distance\r add last elem to prototype for example arr.last() instead of arr[arr.length -1]; ==> modify replace greatest\r also add Array.prototype.first , prev, next, OneBeforeLast, OneAfterFirst",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TagorPetrosian/codility.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TagorPetrosian/codility/issues"
+  },
+  "homepage": "https://github.com/TagorPetrosian/codility#readme"
+}
