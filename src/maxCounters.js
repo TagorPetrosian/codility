@@ -1,3 +1,29 @@
+Object.defineProperty(Array.prototype, 'last', {
+  value: function () {
+    // return [].concat(this).sort(compare);
+    return this[this.length - 1];
+  },
+});
+
+Object.defineProperty(Array.prototype, 'first', {
+  value: function () {
+    // return [].concat(this).sort(compare);
+    return this[0];
+  },
+});
+
+Object.defineProperty(Array.prototype, 'OneBeforeLast', {
+  value: function () {
+    return this[this.length - 2];
+  },
+});
+
+Object.defineProperty(Array.prototype, 'SecondItem', {
+  value: function () {
+    return this[1];
+  },
+});
+
 /* 
 You are given N counters, initially set to 0, and you have two possible operations on them:
 
@@ -62,8 +88,7 @@ function solution(N, A) {
 
   for (let value of A) {
     if (between(value, 1, N)) {
-      if (counters[value - 1] < lastIncrease)
-        counters[value - 1] = lastIncrease;
+      if (counters[value - 1] < lastIncrease) counters[value - 1] = lastIncrease;
       counters[value - 1]++;
       if (counters[value - 1] > maxValue) {
         maxValue = counters[value - 1];
@@ -78,3 +103,5 @@ function solution(N, A) {
 
   return counters;
 }
+
+console.log([1, 2, 3].first());
