@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/submissions/
 /**
- * @param {number} n
+ * @param {number}
  * @return {string}
  */
 const generateTheString = function (n) {
