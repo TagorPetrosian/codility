@@ -1,6 +1,6 @@
 const diagonalSum = require('./matrixDiagonalSum');
 
-test('string should have odd amount of chars', () => {
+test('matrix diagonal sum should be', () => {
   expect(
     diagonalSum([
       [1, 2, 3],
