@@ -1,19 +1,25 @@
-const renderList = function (Array) {
-  Array.forEach(function (a) {
-    const { sub: subtype } = a.type;
-    if (subtype == 'hello') {
-      let li = document.createElement('li');
-      li.textContent = a.text;
-      document.getElementById('containerDiv').appendChild(li);
-    }
-    //  d = 'was rendered'; // what is the purpose
-  });
+var RenderList = function (Array) {
+
+
+  Array.forEach(function(a) {
+     var subtype = a.type.sub; 
+     if (subtype == 'hello')
+        li = document.createElement('li'); 
+     li.textContent = a.text;    
+     document.getElementById('containerDiv').appendChild(li) 
+     else if (a.type.subtype == true) {
+        li = document.createElement('li'); 
+        li.textContent = a.text;      
+        document.getElementById('containerDiv').appendChild(li);
+     });
+     
+     d = 'was rendered';
 };
 
-const getData = function () {
-  return $.xhr('/my/cool/api', { type: 'list' });
+var GetData = function() {
+  return $.xhr('/my/cool/api', {type: "list"});
 };
 
-const d = getData();
-renderList(d);
+d = getData(); 
+RenderList (d); 
 console.log(d);
