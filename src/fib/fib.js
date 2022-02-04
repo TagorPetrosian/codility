@@ -20,9 +20,9 @@ function memoizationFib(n, cache) {
 }
 // with the golden ratio formula
 //www.cuemath.com/numbers/fibonacci-sequence/
-function fib(n) {
-  return Math.floor((PHI ** n - (1 - PHI) ** n) / 5 ** 0.5);
-}
+// function fib(n) {
+//   return Math.floor((PHI ** n - (1 - PHI) ** n) / 5 ** 0.5);
+// }
 
 console.time('timer');
 // console.log(PHI);
