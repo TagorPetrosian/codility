@@ -1,0 +1,3 @@
+# fib
+
+- dynamic programming
