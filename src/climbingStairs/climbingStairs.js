@@ -11,4 +11,4 @@ const climbStairsMemoized = function (n, cache) {
   else return (cache[n] = climbStairsMemoized(n - 1, cache) + climbStairsMemoized(n - 2, cache));
 };
 
-console.log(climbStairs(2));
+module.exports = climbStairs;
