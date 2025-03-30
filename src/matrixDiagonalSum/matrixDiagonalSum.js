@@ -36,4 +36,4 @@ const mat = [
 
 module.exports = diagonalSum;
 
-console.log(diagonalSum(mat));
+// console.log(diagonalSum(mat));
