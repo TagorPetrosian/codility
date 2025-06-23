@@ -18,4 +18,4 @@ function solution(A) {
   return minDif;
 }
 
-console.log(solution([-1000, 1000]));
+module.exports = solution;

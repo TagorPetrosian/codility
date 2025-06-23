@@ -43,4 +43,4 @@ function solution(A) {
   return 0;
 }
 
-console.log(solution([10, 2, 5, 1, 8, 20]));
+module.exports = solution;

@@ -104,4 +104,4 @@ function solution(N, A) {
   return counters;
 }
 
-console.log([1, 2, 3].first());
+module.exports = solution;

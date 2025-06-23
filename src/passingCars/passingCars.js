@@ -51,3 +51,4 @@ function solution(A) {
 
   return passingCars;
 }
+module.exports = solution;

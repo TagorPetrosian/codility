@@ -39,3 +39,4 @@ function solution(H) {
 
   return blockCount;
 }
+module.exports = solution;

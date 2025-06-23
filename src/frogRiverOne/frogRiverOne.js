@@ -58,3 +58,4 @@ function solution(X, A) {
 
   return minTime;
 }
+module.exports = solution;

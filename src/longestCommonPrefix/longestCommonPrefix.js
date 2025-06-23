@@ -23,4 +23,4 @@ var longestCommonPrefix = function (strs) {
 
 // var longestCommonPrefix = function (strs) {};
 
-console.log(longestCommonPrefix(['flower', 'flow', 'flight']));
+module.exports = longestCommonPrefix;
