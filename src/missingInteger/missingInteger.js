@@ -29,4 +29,4 @@ function solution(A) {
   return min;
 }
 
-console.log(solution([1, 3, 6, 4, 1, 2]));
+module.exports = solution;

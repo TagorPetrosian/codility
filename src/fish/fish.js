@@ -16,4 +16,4 @@ function solution(A, B) {
   return alive + swimming.length;
 }
 
-console.log(solution([0, 1], [1, 1]));
+module.exports = solution;

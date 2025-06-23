@@ -26,3 +26,4 @@ function solution(A) {
 
   return seen.size;
 }
+\nmodule.exports = solution;

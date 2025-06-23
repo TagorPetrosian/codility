@@ -48,3 +48,4 @@ function solution(A) {
     A[len - 3] * A[len - 2] * A[len - 1]
   );
 }
+module.exports = solution;

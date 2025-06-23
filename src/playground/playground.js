@@ -22,4 +22,4 @@ var GetData = function() {
 
 d = getData(); 
 RenderList (d); 
-console.log(d);
+console.log(d);\nmodule.exports = RenderList;

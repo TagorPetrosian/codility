@@ -26,4 +26,4 @@ var hammingDistance = function (x, y) {
   return different;
 };
 
-console.log(hammingDistance(1, 4));
+module.exports = hammingDistance;
