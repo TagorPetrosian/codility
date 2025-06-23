@@ -38,16 +38,4 @@ function matching(ch) {
   }
 }
 
-let S = '';
-
-for (let i = 0; i < 100000; i++) {
-  S += '(';
-}
-
-for (let i = 0; i < 100000; i++) {
-  S += ')';
-}
-
-console.time();
-console.log(solution(S));
-console.timeEnd();
+module.exports = solution;

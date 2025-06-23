@@ -15,4 +15,4 @@ function solution(X, Y, D) {
 
   return n;
 }
-console.log(solution(10, 85, 30));
+module.exports = solution;
