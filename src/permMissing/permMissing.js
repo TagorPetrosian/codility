@@ -8,3 +8,4 @@ function solution(A) {
 
   return sum - total;
 }
+module.exports = solution;

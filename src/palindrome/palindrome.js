@@ -21,4 +21,4 @@ var isPalindrome = function (x) {
 //   return res;
 // };
 
-console.log(isPalindrome(434));
+module.exports = isPalindrome;

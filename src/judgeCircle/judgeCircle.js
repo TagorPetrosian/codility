@@ -15,4 +15,4 @@ var judgeCircle = function (moves) {
   return x === 0 && y === 0;
 };
 
-console.log(judgeCircle('UD'));
+module.exports = judgeCircle;
